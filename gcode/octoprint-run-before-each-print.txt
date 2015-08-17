@@ -1,0 +1,10 @@
+;this runs before each print job.
+
+G28
+G91
+G1 Z-75 F1500
+G90
+M280 P0 S48
+G29
+M280 P0 S150
+G92 Z11.9
